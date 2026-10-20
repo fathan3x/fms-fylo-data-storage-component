@@ -17,7 +17,7 @@ export default function App() {
     "text-blue-200": "text-[hsl(243,100%,93%)]",
   };
 
-  const [value, setValue] = useState(815);
+  const [value] = useState(815);
   const realValue = value === 50 ? value - 50 : value;
 
   return (
